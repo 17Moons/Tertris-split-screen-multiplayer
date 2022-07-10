@@ -55,7 +55,7 @@ const playerElements = document.querySelectorAll('.player');
 const keyListener = (event) => {
     [
         [65, 68, 81, 69, 83],
-        [72, 75, 89, 73, 74],
+        [37, 39, 219, 221, 40],
     ].forEach((key, index) => {
         const player = tetri[index].player;
         if (event.type === 'keydown') {
